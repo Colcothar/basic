@@ -1,6 +1,9 @@
-
-gallon = input ("Please enter the number of gallons of gasoline : ")
-gallon=float(gallon)
+def process():
+  gallon = input ("Please enter the number of gallons of gasoline : ")
+  gallon=float(gallon)
+  return gallon
+gallon = process()  
+  
 print ("Original number of gallons is : " , gallon)
 print (gallon , " gallons is equvivalent of " , gallon*3.7854  , "litres")
 print (gallon , " gallons of gasoline requires " , gallon/19.5  , "barrels of oil")
